@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 const codespaceName = process.env.REACT_APP_CODESPACE_NAME;
 const apiHost = codespaceName
-  ? `https://${codespaceName}-8000.app.github.dev`
-  : 'http://localhost:8000';
-const endpoint = `${apiHost}/api/activities/`;
+  ? `https://${codespaceName}-8000.app.github.dev/api/activities/`
+  : 'http://localhost:8000/api/activities/';
+const endpoint = `${apiHost}`;
 
 function Activities() {
   const [activities, setActivities] = useState([]);

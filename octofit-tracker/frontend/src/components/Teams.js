@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 const codespaceName = process.env.REACT_APP_CODESPACE_NAME;
 const apiHost = codespaceName
-  ? `https://${codespaceName}-8000.app.github.dev`
-  : 'http://localhost:8000';
-const endpoint = `${apiHost}/api/teams/`;
+  ? `https://${codespaceName}-8000.app.github.dev/api/teams/`
+  : 'http://localhost:8000/api/teams/';
+const endpoint = `${apiHost}`;
 
 function Teams() {
   const [teams, setTeams] = useState([]);

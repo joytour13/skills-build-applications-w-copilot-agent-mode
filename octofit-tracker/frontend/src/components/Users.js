@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 const codespaceName = process.env.REACT_APP_CODESPACE_NAME;
 const apiHost = codespaceName
-  ? `https://${codespaceName}-8000.app.github.dev`
-  : 'http://localhost:8000';
-const endpoint = `${apiHost}/api/users/`;
+  ? `https://${codespaceName}-8000.app.github.dev/api/users/`
+  : 'http://localhost:8000/api/users/';
+const endpoint = `${apiHost}`;
 
 function Users() {
   const [users, setUsers] = useState([]);

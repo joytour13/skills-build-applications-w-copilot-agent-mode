@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 const codespaceName = process.env.REACT_APP_CODESPACE_NAME;
 const apiHost = codespaceName
-  ? `https://${codespaceName}-8000.app.github.dev`
-  : 'http://localhost:8000';
-const endpoint = `${apiHost}/api/leaderboard/`;
+  ? `https://${codespaceName}-8000.app.github.dev/api/leaderboard/`
+  : 'http://localhost:8000/api/leaderboard/';
+const endpoint = `${apiHost}`;
 
 function Leaderboard() {
   const [entries, setEntries] = useState([]);
