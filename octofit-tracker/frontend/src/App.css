@@ -1,0 +1,119 @@
+.App {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #d9f99d 0%, #4d7c0f 45%, #082f0f 100%);
+  color: #f8fafc;
+}
+
+.App-header {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.App-header h1,
+.App-header h2,
+.card-title {
+  color: #0f5132;
+}
+
+.App-header p,
+.text-muted {
+  color: #14532d !important;
+}
+
+.app-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 1rem;
+  background: #f0fdf4;
+  padding: 12px;
+  box-shadow: 0 12px 28px rgba(15, 50, 32, 0.18);
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.card-body {
+  color: #0f5132;
+}
+
+.card-header {
+  background: linear-gradient(90deg, rgba(74, 222, 128, 0.16), rgba(34, 197, 94, 0.09));
+  border-bottom: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+.nav-pills .nav-link {
+  color: #14532d;
+  background: rgba(220, 252, 231, 0.96);
+  border: 1px solid rgba(134, 239, 172, 0.45);
+}
+
+.nav-pills .nav-link.active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #16a34a, #4ade80);
+}
+
+.nav-pills .nav-link:hover {
+  color: #0f5132;
+  background: rgba(34, 197, 94, 0.14);
+}
+
+.table {
+  border-radius: 0.85rem;
+  overflow: hidden;
+  border: 1px solid rgba(101, 163, 13, 0.28);
+}
+
+.table thead th {
+  background: linear-gradient(90deg, rgba(167, 243, 208, 0.18), rgba(134, 239, 172, 0.12));
+  color: #166534;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(74, 222, 128, 0.12);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #16a34a, #4ade80);
+  border: 1px solid #15803d;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(135deg, #15803d, #22c55e);
+}
+
+.btn-outline-secondary {
+  color: #14532d;
+  border-color: rgba(134, 239, 172, 0.5);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(74, 222, 128, 0.12);
+  border-color: #16a34a;
+}
+
+a.link-primary {
+  color: #15803d;
+}
+
+a.link-primary:hover {
+  color: #166534;
+}
+
+.modal-body pre {
+  background-color: #ecfdf5;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  max-height: 360px;
+  overflow: auto;
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  background-color: rgba(4, 54, 24, 0.45);
+}
